@@ -5,7 +5,7 @@ package GradleGCMS;
 
 public class Library {
     public boolean someLibraryMethod() {
-        System.out.println("agora mudou")
+        System.out.println("agora mudou");
     	return true;
     }
 }
