@@ -18,8 +18,9 @@ permissions:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
+    container:
+      image: docker://lucasplucena/pratica6:pratica6
 
     steps:
     - uses: actions/checkout@v3
